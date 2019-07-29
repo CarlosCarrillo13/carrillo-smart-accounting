@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "smartaccounting",
+    "packageName": "io.github.carrillo.accounting",
+    "packageFolder": "io/github/carrillo/accounting",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "NmQwY2ZiZDM0ODdmZWE4MDVlZDBkNjY1ZGY4ZGNlYjc0ZGUwYzhjZWM2ZDgyNTRhOGUwZGE2M2Q3NDQ4MjdkZTIyMWNlN2Y3MDBlYzJiOTE1MjAxNDI3ZWQ2YjU2OGRjYjU3NWEwMzNhZWM0MTE5MTRmNjEzN2RlNGQ0ZDQ2YjA=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "CarlosCarrillo13",
+  "repository-name": "carrillo-smart-accounting"
+}
